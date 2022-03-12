@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     private func setupViews() {
         if let navigationBarFrame = navigationController?.navigationBar.bounds {
             let searchBar = UISearchBar(frame: navigationBarFrame)
-            searchBar.placeholder = "タイトルで探す"
+            searchBar.placeholder = "テキストを入力"
             searchBar.tintColor = UIColor.gray
             searchBar.keyboardType = UIKeyboardType.default
             navigationItem.titleView = searchBar
