@@ -79,5 +79,3 @@ class ViewController: UIViewController {
     }
 
 }
-
-var names = [String]()
