@@ -10,6 +10,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 import RxRelay
+import SafariServices
 
 class APICell : UITableViewCell {
     
@@ -75,7 +76,7 @@ class ViewController: UIViewController {
             .orEmpty
             .bind(to: self.viewModel.inputs.searchObserver)
             .disposed(by: disposeBag)
-        
+                
     }
 
 }

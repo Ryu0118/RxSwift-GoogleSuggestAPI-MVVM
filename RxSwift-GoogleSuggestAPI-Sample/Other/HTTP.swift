@@ -41,13 +41,15 @@ class API {
             .flatMap { response -> Observable<[Suggestion]> in
                 
                 let doc = try! XML(xml: response, encoding: .utf8)
-                var suggestions = [Suggestion]()
                 
-                doc.xpath("//suggestion").forEach {
-                    if let element = $0["data"] {
-                        suggestions.append(Suggestion(suggest: element))
+                let suggestions = doc.xpath("//suggestion").reduce([Suggestion]()) { partial, element in
+                    if let suggest = element["data"] {
+                        return partial + [Suggestion(suggest: suggest)]
+                    }else{
+                        return partial
                     }
                 }
+
                 return Observable.just(suggestions)
             }
         
