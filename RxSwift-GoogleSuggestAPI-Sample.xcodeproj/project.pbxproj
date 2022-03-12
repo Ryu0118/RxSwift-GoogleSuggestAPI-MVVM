@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231E79B127DC403C0077E294 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79B027DC403C0077E294 /* AppDelegate.swift */; };
+		231E79B327DC403C0077E294 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79B227DC403C0077E294 /* SceneDelegate.swift */; };
+		231E79B527DC403C0077E294 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79B427DC403C0077E294 /* ViewController.swift */; };
+		231E79BA27DC403F0077E294 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 231E79B927DC403F0077E294 /* Assets.xcassets */; };
+		231E79BD27DC403F0077E294 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 231E79BB27DC403F0077E294 /* LaunchScreen.storyboard */; };
+		231E79C627DC7A360077E294 /* SearchBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79C527DC7A360077E294 /* SearchBarViewModel.swift */; };
+		231E79C927DC7D130077E294 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79C827DC7D130077E294 /* Suggestion.swift */; };
+		231E79CC27DC80FA0077E294 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231E79CB27DC80FA0077E294 /* HTTP.swift */; };
+		5ACD2BDFDB188F841C644FDB /* Pods_RxSwift_GoogleSuggestAPI_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89C82671258F182D21905D70 /* Pods_RxSwift_GoogleSuggestAPI_Sample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		231E79AD27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-GoogleSuggestAPI-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		231E79B027DC403C0077E294 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		231E79B227DC403C0077E294 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		231E79B427DC403C0077E294 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		231E79B927DC403F0077E294 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		231E79BC27DC403F0077E294 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		231E79BE27DC403F0077E294 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		231E79C527DC7A360077E294 /* SearchBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewModel.swift; sourceTree = "<group>"; };
+		231E79C827DC7D130077E294 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		231E79CB27DC80FA0077E294 /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		89C82671258F182D21905D70 /* Pods_RxSwift_GoogleSuggestAPI_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_GoogleSuggestAPI_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6DFBB272D436B3C01AEA87B /* Pods-RxSwift-GoogleSuggestAPI-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-GoogleSuggestAPI-Sample.release.xcconfig"; path = "Target Support Files/Pods-RxSwift-GoogleSuggestAPI-Sample/Pods-RxSwift-GoogleSuggestAPI-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		FC62192CA41375480044C95E /* Pods-RxSwift-GoogleSuggestAPI-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-GoogleSuggestAPI-Sample.debug.xcconfig"; path = "Target Support Files/Pods-RxSwift-GoogleSuggestAPI-Sample/Pods-RxSwift-GoogleSuggestAPI-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		231E79AA27DC403C0077E294 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ACD2BDFDB188F841C644FDB /* Pods_RxSwift_GoogleSuggestAPI_Sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231E79A427DC403C0077E294 = {
+			isa = PBXGroup;
+			children = (
+				231E79AF27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample */,
+				231E79AE27DC403C0077E294 /* Products */,
+				E3739B9CE213A836A51642C6 /* Pods */,
+				F95E37F36B93D5EAF88C9D81 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		231E79AE27DC403C0077E294 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				231E79AD27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		231E79AF27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				231E79CA27DC7DC20077E294 /* View */,
+				231E79C727DC7D020077E294 /* Model */,
+				231E79C427DC77FB0077E294 /* ViewModel */,
+				231E79CD27DCB7FC0077E294 /* Other */,
+			);
+			path = "RxSwift-GoogleSuggestAPI-Sample";
+			sourceTree = "<group>";
+		};
+		231E79C427DC77FB0077E294 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				231E79C527DC7A360077E294 /* SearchBarViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		231E79C727DC7D020077E294 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				231E79C827DC7D130077E294 /* Suggestion.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		231E79CA27DC7DC20077E294 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				231E79B427DC403C0077E294 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		231E79CD27DCB7FC0077E294 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				231E79B027DC403C0077E294 /* AppDelegate.swift */,
+				231E79B227DC403C0077E294 /* SceneDelegate.swift */,
+				231E79CB27DC80FA0077E294 /* HTTP.swift */,
+				231E79B927DC403F0077E294 /* Assets.xcassets */,
+				231E79BB27DC403F0077E294 /* LaunchScreen.storyboard */,
+				231E79BE27DC403F0077E294 /* Info.plist */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		E3739B9CE213A836A51642C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC62192CA41375480044C95E /* Pods-RxSwift-GoogleSuggestAPI-Sample.debug.xcconfig */,
+				D6DFBB272D436B3C01AEA87B /* Pods-RxSwift-GoogleSuggestAPI-Sample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F95E37F36B93D5EAF88C9D81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89C82671258F182D21905D70 /* Pods_RxSwift_GoogleSuggestAPI_Sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		231E79AC27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 231E79C127DC403F0077E294 /* Build configuration list for PBXNativeTarget "RxSwift-GoogleSuggestAPI-Sample" */;
+			buildPhases = (
+				AC167567D3065EF95E6C2995 /* [CP] Check Pods Manifest.lock */,
+				231E79A927DC403C0077E294 /* Sources */,
+				231E79AA27DC403C0077E294 /* Frameworks */,
+				231E79AB27DC403C0077E294 /* Resources */,
+				D3ACD92896E2AB8BA2B55846 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RxSwift-GoogleSuggestAPI-Sample";
+			productName = "RxSwift-GoogleSuggestAPI-Sample";
+			productReference = 231E79AD27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		231E79A527DC403C0077E294 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					231E79AC27DC403C0077E294 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 231E79A827DC403C0077E294 /* Build configuration list for PBXProject "RxSwift-GoogleSuggestAPI-Sample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 231E79A427DC403C0077E294;
+			productRefGroup = 231E79AE27DC403C0077E294 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				231E79AC27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		231E79AB27DC403C0077E294 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231E79BD27DC403F0077E294 /* LaunchScreen.storyboard in Resources */,
+				231E79BA27DC403F0077E294 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC167567D3065EF95E6C2995 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift-GoogleSuggestAPI-Sample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3ACD92896E2AB8BA2B55846 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-GoogleSuggestAPI-Sample/Pods-RxSwift-GoogleSuggestAPI-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwift-GoogleSuggestAPI-Sample/Pods-RxSwift-GoogleSuggestAPI-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwift-GoogleSuggestAPI-Sample/Pods-RxSwift-GoogleSuggestAPI-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		231E79A927DC403C0077E294 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231E79B527DC403C0077E294 /* ViewController.swift in Sources */,
+				231E79B127DC403C0077E294 /* AppDelegate.swift in Sources */,
+				231E79C627DC7A360077E294 /* SearchBarViewModel.swift in Sources */,
+				231E79CC27DC80FA0077E294 /* HTTP.swift in Sources */,
+				231E79B327DC403C0077E294 /* SceneDelegate.swift in Sources */,
+				231E79C927DC7D130077E294 /* Suggestion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		231E79BB27DC403F0077E294 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				231E79BC27DC403F0077E294 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		231E79BF27DC403F0077E294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		231E79C027DC403F0077E294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		231E79C227DC403F0077E294 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC62192CA41375480044C95E /* Pods-RxSwift-GoogleSuggestAPI-Sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8RH83B4LT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RxSwift-GoogleSuggestAPI-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibuya.RxSwift-GoogleSuggestAPI-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		231E79C327DC403F0077E294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6DFBB272D436B3C01AEA87B /* Pods-RxSwift-GoogleSuggestAPI-Sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G8RH83B4LT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RxSwift-GoogleSuggestAPI-Sample/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shibuya.RxSwift-GoogleSuggestAPI-Sample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		231E79A827DC403C0077E294 /* Build configuration list for PBXProject "RxSwift-GoogleSuggestAPI-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231E79BF27DC403F0077E294 /* Debug */,
+				231E79C027DC403F0077E294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		231E79C127DC403F0077E294 /* Build configuration list for PBXNativeTarget "RxSwift-GoogleSuggestAPI-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				231E79C227DC403F0077E294 /* Debug */,
+				231E79C327DC403F0077E294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 231E79A527DC403C0077E294 /* Project object */;
+}
