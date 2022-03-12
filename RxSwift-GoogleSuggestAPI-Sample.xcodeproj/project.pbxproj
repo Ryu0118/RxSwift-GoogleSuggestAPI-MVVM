@@ -67,6 +67,7 @@
 		231E79AF27DC403C0077E294 /* RxSwift-GoogleSuggestAPI-Sample */ = {
 			isa = PBXGroup;
 			children = (
+				231E79BE27DC403F0077E294 /* Info.plist */,
 				231E79CA27DC7DC20077E294 /* View */,
 				231E79C727DC7D020077E294 /* Model */,
 				231E79C427DC77FB0077E294 /* ViewModel */,
@@ -107,7 +108,6 @@
 				231E79CB27DC80FA0077E294 /* HTTP.swift */,
 				231E79B927DC403F0077E294 /* Assets.xcassets */,
 				231E79BB27DC403F0077E294 /* LaunchScreen.storyboard */,
-				231E79BE27DC403F0077E294 /* Info.plist */,
 			);
 			path = Other;
 			sourceTree = "<group>";
